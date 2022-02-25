@@ -983,6 +983,30 @@ window.NEOCAST_DATA_LOCAL = {
       updated_at: "2021-07-13T15:17:14.000Z"
     },
     {
+      key: "mozza_meat_price_6in",
+      value: "1.23"
+    },
+    {
+      key: "mozza_meat_price_12in",
+      value: "2.34"
+    },
+    {
+      key: "mozza_meat_price_pro",
+      value: "3.45"
+    },
+    {
+      key: "supreme_meats_price_6in",
+      value: "4.56"
+    },
+    {
+      key: "supreme_meats_price_12in",
+      value: "5.67"
+    },
+    {
+      key: "supreme_meats_price_pro",
+      value: "6.78"
+    },
+    {
       key: "cappuccino_price_12oz",
       value: "1.11",
       created_at: "2016-12-07T19:48:44.000Z",
@@ -1065,6 +1089,18 @@ window.NEOCAST_DATA_LOCAL = {
       value: "5.55",
       created_at: "2015-08-25T17:25:07.000Z",
       updated_at: "2015-08-25T17:25:07.000Z"
+    },
+    {
+      key: "Add-On_Capicola_price_6in",
+      value: ".99"
+    },
+    {
+      key: "Add-On_Capicola_price_12in",
+      value: "1.99"
+    },
+    {
+      key: "Add-On_Capicola_price_pro",
+      value: "2.99"
     },
     {
       key: "cauliflower_curry_price",
@@ -3606,7 +3642,7 @@ window.NEOCAST_DATA_LOCAL = {
     },
     {
       key: "serves_coca_cola",
-      value: true,
+      value: "false",
       created_at: "2014-10-27T14:10:29.000Z",
       updated_at: "2020-12-15T14:17:01.000Z"
     },
@@ -3618,7 +3654,7 @@ window.NEOCAST_DATA_LOCAL = {
     },
     {
       key: "serves_coke",
-      value: "false",
+      value: "true",
       created_at: "2015-01-27T17:40:34.000Z",
       updated_at: "2015-01-27T17:40:34.000Z"
     },
@@ -4380,7 +4416,7 @@ window.NEOCAST_DATA_LOCAL = {
     },
     {
       key: "store_plus_sodium",
-      value: "true",
+      value: "false",
       created_at: "2017-03-03T16:24:18.000Z",
       updated_at: "2017-03-17T19:25:59.000Z"
     },
