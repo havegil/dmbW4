@@ -37,6 +37,7 @@ export default class RefreshHeroes extends Component {
     let slicedAvocado = API.loc('avocado_sliced');
     let isSodiumStore = API.loc('store_plus_sodium');
     let isPhilly = API.loc('is_philadelphia_store');
+    let layoutDirection = API.loc('layout_direction');
 
     let HoneyMustardChickenData = data.find((sub) => sub.id == "honey_mustard_RSC");
     let HoneyMustardChickenPrice6 = API.loc('honey_mustard_RSC_price_6in');
@@ -68,14 +69,14 @@ export default class RefreshHeroes extends Component {
     let SupremeMeatsPrice12 = API.loc('supreme_meats_price_12in');
     let SupremeMeatsPricePro = API.loc('supreme_meats_price_pro');
 
-    let CapicolaPrice6 = API.loc('Add-On_Capicola_price_6in');
-    let CapicolaPrice12 = API.loc('Add-On_Capicola_price_12in');
-    let CapicolaPricePro = API.loc('Add-On_Capicola_price_pro');
+    let CapicolaPrice6 = API.loc('add-on_capicola_price_6in');
+    let CapicolaPrice12 = API.loc('add-on_capicola_price_12in');
+    let CapicolaPricePro = API.loc('add-on_capicola_price_pro');
 
     
     return (
         <div className="refresh-heroes">
-            <div className="eat-fresh-refresh-half">
+            <div className="refresh-half" style={{ left: layoutDirection == "R2L" ? "auto" : "0", right: layoutDirection == "R2L" ? "0" : "auto" }}>
                 { isSodiumStore && isPhilly && !servesCoke && <img src={RefreshPhillyNoCoke} /> }
                 { isSodiumStore && !isPhilly && !servesCoke && <img src={RefreshNYNoCoke} /> }
                 { isSodiumStore && isPhilly && servesCoke && <img src={RefreshPhillyCoke} /> }
@@ -87,7 +88,7 @@ export default class RefreshHeroes extends Component {
                 <p className="price price--supreme" style={{ top: isPhilly ? "53.1rem" : "" }}>${SupremeMeatsPrice6} <br /> ${SupremeMeatsPrice12} <br /> ${SupremeMeatsPricePro} </p>
 
             </div>
-            <div className="heroes-half">
+            <div className="heroes-half" style={{ left: layoutDirection == "R2L" ? "0" : "auto", right: layoutDirection == "R2L" ? "auto" : "0" }}>
                 { isSodiumStore && isPhilly && !slicedAvocado && <img src={HeroesPhillySmashed} /> }
                 { isSodiumStore && !isPhilly && !slicedAvocado && <img src={HeroesNYSmashed} /> }
                 { isSodiumStore && isPhilly && slicedAvocado && <img src={HeroesPhillySliced} /> }

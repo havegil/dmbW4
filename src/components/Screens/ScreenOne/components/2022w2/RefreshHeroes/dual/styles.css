@@ -1,11 +1,11 @@
-.preloaded-to-perfection-quad {
+.refresh-heroes {
     
-    z-index: 100;
-    width: 1920px;
     height: 1080px;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
+    width: 1920px;
+    z-index: 100;
 
     img {
         position: absolute;
@@ -13,107 +13,85 @@
         left: 0;
     }
 
-    .green-bg {
-        width: 1280px;
-        height: 1080px;
+    .price {
+        color: black;
+        font-family: 'Subway-Medium';
+        font-size: 30px;
+        left: 0;
+        line-height: 30px;
         position: absolute;
         top: 0;
-        left: 0;
-        background: #008e46;
+        z-index: 100;
+
+        &--steak {
+            left: 2.5rem;
+            top: 17.5rem;
+        }
+
+        &--rsc {
+            left: 2.5rem;
+            top: 29rem;
+        }
+
+        &--chicken-bacon {
+            left: 2.5rem;
+            top: 38rem;
+        }
+
+        &--turkey {
+            left: 2.5rem;
+            top: 45rem;
+        }
+
+        &--capicola {
+            color: white;
+            left: 2.5rem;
+            top: 61rem;
+        }
+
+        &--mozza {
+            top: 31.2rem;
+            left: 54rem;
+            line-height: 2.2rem;
+        }
+
+        &--supreme {
+            top: 51.2rem;
+            left: 18rem;
+            line-height: 2.2rem;
+        }
     }
 
-    .sub-info {
+    .refresh-half {
+        height: 1080px;
         position: absolute;
         left: 0;
-        top: 0;
-        width: 400px;
-        height: 400px;
-        font-family: 'Subway-Medium';
-        font-size: 36px;
-        line-height: 36px;
+        width: 960px;
+    }
 
-        .sodium-icon {
-            position: absolute;
-            top: 37px;
-            left: 361px;
-        }
-
-        .sodium-icon-philly {
-            position: relative;
-            margin-right: 10px;
-        }
-
-        p {
-            margin: 5px;
-        }
-
-        .sub-name {
-            font-family: 'Subway-Bold';
-        }
-
-        .yellow {
-            color: #F2B700;
-        }
-
-        sup {
-            vertical-align: top;
-            top: 0 !important;
-        }
-
-        &.cali-steak {
-            left: 1575px;
-            top: 50px;
-        }
-
-        &.cali-turkey {
-            left: 1575px;
-            top: 750px;
-        }
-
-        &.baja-steak {
-            left: 1000px;
-            top: 415px;
-        }
-
-        &.baja-chicken {
-            left: 510px;
-            top: 235px;
-        }
-
-        &.chicken-bacon-ranch {
-            left: 510px;
-            top: 490px;
-        }
-
-        .sodium-text {
-            color: #F2B700;
-            font-family: 'Subway-Bold-Narrow';
-        }
-
-        .cal-container {
-            margin-right: 10px;
-        }
-
-        .cal-price-container {
-            display: flex;
-        }
+    .heroes-half {
+        height: 1080px;
+        position: absolute;
+        right: 0;
+        width: 960px;
     }
 
 }
 
 .featured-promo-area {
-    width: 1920px;
     height: 1080px;
-    position: absolute;
     left: 0;
+    position: absolute;
     top: 0;
+    width: 1920px;
 
     span {
-        width: 1920px;
         height: 1080px;
+        width: 1920px;
     }
 
     .dj-content {
+
     }
 }
 

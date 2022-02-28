@@ -69,9 +69,9 @@ export default class RefreshHeroes extends Component {
     let SupremeMeatsPrice12 = API.loc('supreme_meats_price_12in');
     let SupremeMeatsPricePro = API.loc('supreme_meats_price_pro');
 
-    let CapicolaPrice6 = API.loc('Add-On_Capicola_price_6in');
-    let CapicolaPrice12 = API.loc('Add-On_Capicola_price_12in');
-    let CapicolaPricePro = API.loc('Add-On_Capicola_price_pro');
+    let CapicolaPrice6 = API.loc('add-on_capicola_price_6in');
+    let CapicolaPrice12 = API.loc('add-on_capicola_price_12in');
+    let CapicolaPricePro = API.loc('add-on_capicola_price_pro');
 
     
     return (
