@@ -1,0 +1,104 @@
+.refresh-heroes {
+    
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+    z-index: 100;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .price {
+        color: black;
+        font-family: 'Subway-Medium';
+        font-size: 30px;
+        left: 0;
+        line-height: 30px;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+
+        &--steak {
+            left: 2.5rem;
+            top: 17.5rem;
+        }
+
+        &--rsc {
+            left: 2.5rem;
+            top: 29rem;
+        }
+
+        &--chicken-bacon {
+            left: 2.5rem;
+            top: 38rem;
+        }
+
+        &--turkey {
+            left: 2.5rem;
+            top: 45rem;
+        }
+
+        &--capicola {
+            color: white;
+            left: 2.5rem;
+            top: 61rem;
+        }
+
+        &--mozza {
+            top: 31.2rem;
+            left: 54rem;
+            line-height: 2.2rem;
+        }
+
+        &--supreme {
+            top: 51.2rem;
+            left: 18rem;
+            line-height: 2.2rem;
+        }
+    }
+
+    .refresh-half {
+        height: 1080px;
+        position: absolute;
+        left: 0;
+        width: 960px;
+    }
+
+    .heroes-half {
+        height: 1080px;
+        position: absolute;
+        right: 0;
+        width: 960px;
+    }
+
+}
+
+.featured-promo-area {
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+
+    span {
+        height: 1080px;
+        width: 1920px;
+    }
+
+    .dj-content {
+
+    }
+}
+
+.signature-wraps-area {
+    opacity: 0;
+}
+
+.l-screen-reverse .featured-promo-area {
+    left: 0px;
+}

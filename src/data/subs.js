@@ -2657,5 +2657,57 @@ LOCAL SUBS
       }
     ]
   },
+  {
+    id: 'mozza_meat',
+    apiMap: 'mozza_meat',
+    label: 'Mozza Meat',
+    sizes       : [
+      {
+        id       : '6',
+        label    : 'SIX"',
+        calories : 420,
+        price    : API.loc('mozza_meat_price_6in'),
+        meal     : API.loc('mozza_meat_meal_price')
+      },
+      {
+        id       : '12',
+        label    : 'FOOTLONG',
+        calories : 840,
+        price    : API.loc('mozza_meat_price_12in')
+      },
+      {
+        id       : 'flpro',
+        label    : 'FOOTLONGPRO',
+        calories : 1010,
+        price    : API.loc('mozza_meat_price_pro')
+      }
+    ]
+  },
+  {
+    id: 'supreme_meats',
+    apiMap: 'supreme_meats',
+    label: 'Supreme Meats',
+    sizes       : [
+      {
+        id       : '6',
+        label    : 'SIX"',
+        calories : 510,
+        price    : API.loc('supreme_meats_price_6in'),
+        meal     : API.loc('supreme_meats_meal_price')
+      },
+      {
+        id       : '12',
+        label    : 'FOOTLONG',
+        calories : 1020,
+        price    : API.loc('supreme_meats_price_12in')
+      },
+      {
+        id       : 'flpro',
+        label    : 'FOOTLONGPRO',
+        calories : 1440,
+        price    : API.loc('supreme_meats_price_pro')
+      }
+    ]
+  },
 
 ]
