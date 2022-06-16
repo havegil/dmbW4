@@ -1,0 +1,163 @@
+.all-new-menu {
+    
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+    z-index: 100;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    div.price-block {
+        color: white;
+        font-family: 'Subway-Medium';
+        font-size: 40.9px;
+        left: 0;
+        line-height: 15px;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+
+        .cal{
+            margin-top:1.125rem;
+        }
+        
+        div.supreme-meat{
+            left: 36.4375rem;
+            top: 16.875rem;
+            position:absolute;
+        }
+
+        div.supreme-meat-fl{
+            left: 43.75rem;
+            top: 16.875rem; 
+            position:absolute;
+        }
+
+        div.supreme-meat-pro{
+            left: 51.25rem;
+            top: 16.875rem;
+            position:absolute;            
+        }
+
+        div.bella-mozza6{
+            left: 36.4375rem;
+            top: 32.625rem;
+            position:absolute; 
+        }
+
+        div.outbella-mozzalaw-fl{
+            left: 43.75rem;
+            top: 32.625rem;
+            position:absolute; 
+        }
+
+        div.bella-mozza-pro{
+            left: 51.25rem;
+            top: 32.625rem;
+            position:absolute; 
+        }
+
+        div.boss6{
+            left: 36.4375rem;
+            top: 48.25rem;
+            position:absolute; 
+        }
+
+        div.boss-fl{
+            left: 43.75rem;
+            top: 48.25rem;
+            position:absolute; 
+        }
+
+        div.boss-pro{
+            left: 51.25rem;
+            top: 48.25rem;
+            position:absolute; 
+        }
+
+        &--steak {
+            left: 2.5rem;
+            top: 17.5rem;
+        }
+
+        &--rsc {
+            left: 2.5rem;
+            top: 29rem;
+        }
+
+        &--chicken-bacon {
+            left: 2.5rem;
+            top: 38rem;
+        }
+
+        &--turkey {
+            left: 2.5rem;
+            top: 45rem;
+        }
+
+        &--capicola {
+            color: white;
+            left: 2.5rem;
+            top: 61rem;
+        }
+
+        &--mozza {
+            top: 31.2rem;
+            left: 54rem;
+            line-height: 2.2rem;
+        }
+
+        &--supreme {
+            top: 51.2rem;
+            left: 18rem;
+            line-height: 2.2rem;
+        }
+    }
+
+    .series-half {
+        height: 1080px;
+        position: absolute;
+        left: 0;
+        width: 960px;
+    }
+
+    .cheesesteaks-half {
+        height: 1080px;
+        position: absolute;
+        right: 0;
+        width: 960px;
+    }
+
+}
+
+.featured-promo-area {
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+
+    span {
+        height: 1080px;
+        width: 1920px;
+    }
+
+    .dj-content {
+
+    }
+
+}
+
+.signature-wraps-area {
+    opacity: 0;
+}
+
+.l-screen-reverse .featured-promo-area {
+    left: 0px;
+}

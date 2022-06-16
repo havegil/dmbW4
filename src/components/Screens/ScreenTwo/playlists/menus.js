@@ -2,7 +2,7 @@ import API from 'api'
 import isNil from 'lodash/isNil'
 
 
-import SubwayHeroes from '../components/SubwayHeroes'
+import SubwayHeroes from '../components/AllNewSubMenu'
 
 let showSKU = API.loc('test_sku_reduction');
 if (isNil(showSKU)) showSKU = false;
@@ -15,7 +15,7 @@ let playlist = {
       //   duration: 15000
       // },
       {
-        component: <SubwayHeroes />,
+        component: <AllNewSubMenu />,
         duration: 15000
       }
 
@@ -30,7 +30,7 @@ let playlistSKU = {
         duration: 15000
       },*/
       {
-        component: <SubwayHeroes />,
+        component: <AllNewSubMenu />,
         duration: 15000
       }
     ]

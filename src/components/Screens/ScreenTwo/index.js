@@ -7,7 +7,7 @@ import './styles.css'
 
 // Playlists
 import playlistMenus from './playlists/menus'
-import playlistFooters from './playlists/footers'
+// import playlistFooters from './playlists/footers' not use for dmb 2022 june window 4 #Gnordelus
 
 export default class PanelThree extends Component {
   static propTypes = {
@@ -28,13 +28,13 @@ export default class PanelThree extends Component {
               {...this.props}
             />
         </section>
-        <section className={`s-Footer`}>
+        {/* <section className={`s-Footer`}>
             <PlaylistDJ
               playlists={playlistFooters(this.props.player,this.props.layout)}
               {...this.props}
               
             />
-        </section>
+        </section> */}
 
       </div>
     )

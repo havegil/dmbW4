@@ -79,10 +79,13 @@ import PreloadedToPerfection from '../components/2021w6/PreloadedToPerfection';
 import EatFreshRefresh from '../components/2022w1/EatFreshRefresh';
 
 //2022w2
-import RefreshHeroes from '../components/2022w2/RefreshHeroes'
+import RefreshHeroes from '../components/2022w2/RefreshHeroes';
+
+//2022w4
+import AllNewMenu from '../components/2022w4/AllNewMenu';
 
 // Side Loaders
-import SideLoaded from '../components/SideLoaded'
+import SideLoaded from '../components/SideLoaded';
 
 // Import Conditions
 import {
@@ -181,6 +184,9 @@ const components = {
 
   //2022w2
   refresh_heroes: <RefreshHeroes/>,
+
+  //2022w4
+  all_new_menu: <AllNewMenu/>,
 
   //FixedPromo
 
@@ -374,11 +380,11 @@ export default [
     id: 'd202c828-daed-490c-ad43-c611b411efb5',
     frames: [
       { 
-        component: <RefreshHeroes />,
+        component: <AllNewMenu />,
         duration: 10000000,
       },
       {
-        component: <RefreshHeroes />,
+        component: <AllNewMenu />,
         duration: 10000000,
       },
     ]
