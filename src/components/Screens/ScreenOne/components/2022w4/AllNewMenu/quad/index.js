@@ -110,37 +110,37 @@ export default class AllNewMenu extends Component {
 
                 <div className="price-block ">
                     <div className=" philly6">${philyPrice6} 
-                        <p classname="cal">480</p>
+                        <p className="cal">480</p>
                     </div>
                     <div className=" philly-fl">${philyPrice12}
-                        <p classname="cal">960</p>
+                        <p className="cal">960</p>
                     </div>
                     <div className=" philly-pro">${philyPricePro}
-                        <p classname="cal">1190cal</p>
+                        <p className="cal">1190cal</p>
                     </div> 
                 </div>
 
                 <div className="price-block ">
                     <div className=" outlaw6">${philyPrice6} 
-                        <p classname="cal">480</p>
+                        <p className="cal">480</p>
                     </div>
                     <div className=" outlaw-fl">${philyPrice12}
-                        <p classname="cal">960</p>
+                        <p className="cal">960</p>
                     </div>
                     <div className=" outlaw-pro">${philyPricePro}
-                        <p classname="cal">1190cal</p>
+                        <p className="cal">1190cal</p>
                     </div> 
                 </div>
 
                 <div className="price-block ">
                     <div className=" monster6">${philyPrice6} 
-                        <p classname="cal">480</p>
+                        <p className="cal">480</p>
                     </div>
                     <div className=" monster-fl">${philyPrice12}
-                        <p classname="cal">960</p>
+                        <p className="cal">960</p>
                     </div>
                     <div className=" monster-pro">${philyPricePro}
-                        <p classname="cal">1190cal</p>
+                        <p className="cal">1190cal</p>
                     </div> 
                 </div>
 

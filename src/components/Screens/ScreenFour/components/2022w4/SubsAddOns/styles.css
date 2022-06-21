@@ -1,0 +1,143 @@
+.all-new-addons {
+    
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 960px;
+    z-index: 100;
+
+    img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    div.addons-price-block {
+        color: black;
+        font-family: 'Subway-Medium';
+        font-size: 40.9px;
+        left: 0;
+        line-height: 15px;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+
+        .cal{
+            margin-top:1.5rem;
+        }
+        
+        div.pepperoni6{
+            left: 5rem;
+            top: 48.5rem;
+            position:absolute;
+        }
+
+        div.pepperoni-fl{
+            left: 12.375rem;
+            top: 48.5rem;
+            position:absolute;
+        }
+
+
+        div.s-avocado6{
+            left: 20rem;
+            top: 48.5rem;
+            position:absolute; 
+        }
+
+        div.s-avocado-fl{
+            left: 27.5rem;
+            top: 48.5rem;
+            position:absolute; 
+        }
+
+        div.bel-mozz6{
+            left: 36.4375rem;
+            top: 48.5rem;
+            position:absolute; 
+        }
+
+        div.bel-mozz-fl{
+            left: 43.75rem;
+            top: 48.5rem;
+            position:absolute; 
+        }
+
+        /** row 2 **/
+
+        div.bacon6{
+            left: 5rem;
+            top: 57rem;
+            position:absolute; 
+        }
+
+        div.bacon-fl{
+            left: 12.375rem;
+            top: 57rem;
+            position:absolute; 
+        }
+
+
+        div.ext-cheese6{
+            left: 20rem;
+            top: 57rem;
+            position:absolute; 
+        }
+
+        div.ext-cheese-fl{
+            left: 27.5rem;
+            top: 57rem;
+            position:absolute; 
+        }
+
+        div.capicola6{
+            left: 36.4375rem;
+            top: 57rem;
+            position:absolute; 
+        }
+
+        div.capicola-fl{
+            left: 43.75rem;
+            top: 57rem;
+            position:absolute; 
+        }
+
+    }
+
+
+
+    .addons-half {
+        height: 1080px;
+        position: absolute;
+        left: 0;
+        width: 960px;
+    }
+
+}
+
+.featured-promo-area {
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+
+    span {
+        height: 1080px;
+        width: 1920px;
+    }
+
+    .dj-content {
+
+    }
+
+}
+
+.signature-wraps-area {
+    opacity: 0;
+}
+
+.l-screen-reverse .featured-promo-area {
+    left: 0px;
+}

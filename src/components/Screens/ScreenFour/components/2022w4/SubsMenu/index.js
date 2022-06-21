@@ -6,9 +6,7 @@ import data from 'data/subs'
 
 import './styles.css'
 
-import AllNewItalianos from './images/strd_italianos.jpg'
-import AllNewChicken from './images/strd_chicken.jpg'
-// import AllNewSodium from '../images/strd_all_new_sodium.png'
+import AllNewSubsMenu from './images/strd_subs.jpg'
 
 // import HeroesNYSmashed from '../images/heroes_ny_smashed_half.jpg'
 // import HeroesNYSliced from '../images/heroes_ny_sliced_half.jpg'
@@ -33,7 +31,7 @@ import AllNewChicken from './images/strd_chicken.jpg'
 ])
   
 
-export default class AllNewSubMenu extends Component {
+export default class SubsMenu extends Component {
 
     render() {
 
@@ -84,54 +82,11 @@ export default class AllNewSubMenu extends Component {
 
     
     return (
-        <div className="all-new-menu">
-            {/* <img src={bg} /> */}
+        <div className="all-new-subs-menu">
 
-            <div className="series-half" style={{ left: layoutDirection == "R2L" ? "auto" : "0", right: layoutDirection == "R2L" ? "0" : "auto" }}>
-                 <img src={AllNewItalianos} />
-
-
-                <div className="price-block ">
-                    <div className=" philly6">${philyPrice6} 
-                        <p className="cal">480</p>
-                    </div>
-                    <div className=" philly-fl">${philyPrice12}
-                        <p className="cal">960</p>
-                    </div>
-                    <div className=" philly-pro">${philyPricePro}
-                        <p className="cal">1190cal</p>
-                    </div> 
-                </div>
-
-                <div className="price-block ">
-                    <div className=" outlaw6">${philyPrice6} 
-                        <p className="cal">480</p>
-                    </div>
-                    <div className=" outlaw-fl">${philyPrice12}
-                        <p className="cal">960</p>
-                    </div>
-                    <div className=" outlaw-pro">${philyPricePro}
-                        <p className="cal">1190cal</p>
-                    </div> 
-                </div>
-
-                <div className="price-block ">
-                    <div className=" boss6">${philyPrice6} 
-                        <p className="cal">480</p>
-                    </div>
-                    <div className=" boss-fl">${philyPrice12}
-                        <p className="cal">960</p>
-                    </div>
-                    <div className=" boss-pro">${philyPricePro}
-                        <p className="cal">1190cal</p>
-                    </div> 
-                </div>
-            </div>
-
-
-            <div className="cheesesteaks-half" style={{ left: layoutDirection == "R2L" ? "0" : "auto", right: layoutDirection == "R2L" ? "auto" : "0" }}>
+            <div className="subs-half" style={{ left: layoutDirection == "R2L" ? "0" : "auto", right: layoutDirection == "R2L" ? "auto" : "0" }}>
                 
-                <img src={AllNewChicken} />
+                <img src={AllNewSubsMenu} />
 
                 {/* { isSodiumStore && isPhilly && !slicedAvocado && <img src={HeroesPhillySmashed} /> }
                 { isSodiumStore && !isPhilly && !slicedAvocado && <img src={HeroesNYSmashed} /> }
@@ -140,38 +95,98 @@ export default class AllNewSubMenu extends Component {
                 { !isSodiumStore && !slicedAvocado && <img src={HeroesSmashed} /> }
                 { !isSodiumStore && slicedAvocado && <img src={HeroesSliced} /> } */}
 
-                <div className="price-block ">
-                    <div className=" philly6">${philyPrice6} 
+                <div className="subs-price-block">
+                    <div className=" soct6">${philyPrice6} 
                         <p className="cal">480</p>
                     </div>
-                    <div className=" philly-fl">${philyPrice12}
+                    <div className="soct-fl">${philyPrice12}
                         <p className="cal">960</p>
                     </div>
-                    <div className=" philly-pro">${philyPricePro}
+                    <div className="soct-pro">${philyPricePro}
                         <p className="cal">1190cal</p>
                     </div> 
                 </div>
 
-                <div className="price-block ">
-                    <div className=" outlaw6">${philyPrice6} 
+                <div className="subs-price-block">
+                    <div className="cbr6">${philyPrice6} 
                         <p className="cal">480</p>
                     </div>
-                    <div className=" outlaw-fl">${philyPrice12}
+                    <div className=" cbr-fl">${philyPrice12}
                         <p className="cal">960</p>
                     </div>
-                    <div className=" outlaw-pro">${philyPricePro}
+                    <div className="cbr-pro">${philyPricePro}
                         <p className="cal">1190cal</p>
                     </div> 
                 </div>
 
-                <div className="price-block ">
-                    <div className=" boss6">${philyPrice6} 
+                <div className="subs-price-block">
+                    <div className="mm6">${philyPrice6} 
                         <p className="cal">480</p>
                     </div>
-                    <div className=" boss-fl">${philyPrice12}
+                    <div className="mm-fl">${philyPrice12}
                         <p className="cal">960</p>
                     </div>
-                    <div className=" boss-pro">${philyPricePro}
+                    <div className="mm-pro">${philyPricePro}
+                        <p className="cal">1190cal</p>
+                    </div> 
+                </div>
+
+                <div className="subs-price-block">
+                    <div className=" ccc6">${philyPrice6} 
+                        <p className="cal">480</p>
+                    </div>
+                    <div className=" ccc-fl">${philyPrice12}
+                        <p className="cal">960</p>
+                    </div>
+                    <div className="ccc-pro">${philyPricePro}
+                        <p className="cal">1190cal</p>
+                    </div> 
+                </div>
+
+                <div className="subs-price-block">
+                    <div className="rsc6">${philyPrice6} 
+                        <p className="cal">480</p>
+                    </div>
+                    <div className="rsc-fl">${philyPrice12}
+                        <p className="cal">960</p>
+                    </div>
+                    <div className="rsc-pro">${philyPricePro}
+                        <p className="cal">1190cal</p>
+                    </div> 
+                </div>
+
+                <div className="subs-price-block">
+                    <div className="rb6">${philyPrice6} 
+                        <p className="cal">480</p>
+                    </div>
+                    <div className="rb-fl">${philyPrice12}
+                        <p className="cal">960</p>
+                    </div>
+                    <div className="rb-pro">${philyPricePro}
+                        <p className="cal">1190cal</p>
+                    </div> 
+                </div>
+
+                <div className="subs-price-block">
+                    <div className="bc6">${philyPrice6} 
+                        <p className="cal">480</p>
+                    </div>
+                    <div className="bc-fl">${philyPrice12}
+                        <p className="cal">960</p>
+                    </div>
+                    <div className="bc-pro">${philyPricePro}
+                        <p className="cal">1190cal</p>
+                    </div> 
+                </div>
+
+                <div className="subs-price-block">
+                    <div className=" vd6">${philyPrice6} 
+                        <p className="cal">480</p>
+                    </div>
+                    <div className="vd-fl">${philyPrice12}
+                        <p className="cal">960</p>
+                    </div>
+                    <div className="vd-pro">${philyPricePro}
                         <p className="cal">1190cal</p>
                     </div> 
                 </div>

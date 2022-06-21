@@ -1,0 +1,251 @@
+.all-new-breakfast-combo {
+    
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 960px;
+    z-index: 100;
+
+    img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    div.clubs-price-block {
+        color: white;
+        font-family: 'Subway-Medium';
+        font-size: 40.9px;
+        left: 0;
+        line-height: 15px;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+
+        .cal{
+            margin-top:1.125rem;
+        }
+        
+        div.club-aac6{
+            left: 36.4375rem;
+            top: 16.875rem;
+            position:absolute;
+        }
+
+        div.club-aac-fl{
+            left: 43.75rem;
+            top: 16.875rem; 
+            position:absolute;
+        }
+
+        div.club-aac-pro{
+            left: 51.25rem;
+            top: 16.875rem;
+            position:absolute;            
+        }
+
+        div.club-subway6{
+            left: 36.4375rem;
+            top: 32.625rem;
+            position:absolute; 
+        }
+
+        div.club-subway-fl{
+            left: 43.75rem;
+            top: 32.625rem;
+            position:absolute; 
+        }
+
+        div.club-subway-pro{
+            left: 51.25rem;
+            top: 32.625rem;
+            position:absolute; 
+        }
+
+        div.club-cali6{
+            left: 36.4375rem;
+            top: 48.25rem;
+            position:absolute; 
+        }
+
+        div.club-cali-fl{
+            left: 43.75rem;
+            top: 48.25rem;
+            position:absolute; 
+        }
+
+        div.club-cali-pro{
+            left: 51.25rem;
+            top: 48.25rem;
+            position:absolute; 
+        }
+
+    }
+
+    div.byo-price-block {
+        color: black;
+        font-family: 'Subway-Medium';
+        font-size: 40.9px;
+        left: 0;
+        line-height: 15px;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+
+        .cal{
+            margin-top:1.125rem;
+        }
+        
+        div.oven-roasted6{
+            left: 30.9375rem;
+            top: 9.6875rem;
+            position:absolute;
+        }
+
+        div.oven-roasted-fl{
+            left: 38.4375rem;
+            top: 9.6875rem;
+            position:absolute;
+        }
+
+        div.oven-roasted-pro{
+            left: 45.9375rem;
+            top: 9.6875rem;
+            position:absolute;            
+        }
+
+        div.steaks-cheese6{
+            left: 30.9375rem;
+            top: 18.375rem;
+            position:absolute; 
+        }
+
+        div.steaks-cheese-fl{
+            left: 38.4375rem;
+            top: 18.375rem;
+            position:absolute; 
+        }
+
+        div.steaks-cheese-pro{
+            left: 45.9375rem;
+            top: 18.375rem;
+            position:absolute; 
+        }
+
+        div.black-forest-ham6{
+            left: 30.9375rem;
+            top: 27rem;
+            position:absolute; 
+        }
+
+        div.black-forest-ham-fl{
+            left: 38.4375rem;
+            top: 27rem;
+            position:absolute; 
+        }
+
+        div.black-forest-ham-pro{
+            left: 45.9375rem;
+            top: 27rem;
+            position:absolute; 
+        }
+
+        div.tuna6{
+            left: 30.9375rem;
+            top: 35.75rem;
+            position:absolute; 
+        }
+
+        div.tuna-fl{
+            left: 38.4375rem;
+            top: 35.75rem;
+            position:absolute; 
+        }
+
+        div.tuna-pro{
+            left: 45.9375rem;
+            top: 35.75rem;
+            position:absolute; 
+        }
+
+        div.italian-bmt6{
+            left: 30.9375rem;
+            top: 44.125rem;
+            position:absolute; 
+        }
+
+        div.italian-bmt-fl{
+            left: 38.4375rem;
+            top: 44.125rem;
+            position:absolute; 
+        }
+
+        div.italian-bmt-pro{
+            left: 45.9375rem;
+            top: 44.125rem;
+            position:absolute; 
+        }
+
+        div.spicy-italian6{
+            left: 30.9375rem;
+            top: 53rem;
+            position:absolute; 
+        }
+
+        div.spicy-italian-fl{
+            left: 38.4375rem;
+            top: 53rem;
+            position:absolute; 
+        }
+
+        div.spicy-italian-pro{
+            left: 45.9375rem;
+            top: 53rem;
+            position:absolute; 
+        }
+    }
+
+
+    .clubs-half {
+        height: 1080px;
+        position: absolute;
+        left: 0;
+        width: 960px;
+    }
+
+    .build-your-own-half {
+        height: 1080px;
+        position: absolute;
+        right: 0;
+        width: 960px;
+        color:black;
+    }
+
+}
+
+.featured-promo-area {
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+
+    span {
+        height: 1080px;
+        width: 1920px;
+    }
+
+    .dj-content {
+
+    }
+
+}
+
+.signature-wraps-area {
+    opacity: 0;
+}
+
+.l-screen-reverse .featured-promo-area {
+    left: 0px;
+}

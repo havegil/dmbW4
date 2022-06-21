@@ -14,13 +14,13 @@ let screens = [ScreenOne, ScreenTwo, ScreenThree, ScreenFour]
 const layoutDirection =
   API.player('layout_direction') || API.loc('layout_direction') || 'L2R'
 
-const isReversed = layoutDirection === 'R2L'
+const isReversed = true;//layoutDirection === 'R2L' // Gil
 
 if (isReversed) {
   screens = screens.reverse()
 }
 
-const screenOrdering = API.player('monitors', '1_2_3_4').split('_')
+const screenOrdering = API.player('monitors', '4_3_2_1').split('_') //1_2_3_4 -- Gil
 const player = screenOrdering.length === 2 ? 'dual' : 'quad'
 
 const screenInfo = {

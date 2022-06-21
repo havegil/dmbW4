@@ -6,9 +6,9 @@ import data from 'data/subs'
 
 import './styles.css'
 
-import AllNewItalianos from './images/strd_italianos.jpg'
-import AllNewChicken from './images/strd_chicken.jpg'
-// import AllNewSodium from '../images/strd_all_new_sodium.png'
+import AllNewItalianos from './images/strd_all_new_clubs.jpg'
+import AllNewChicken from './images/strd_build_your_own.jpg'
+
 
 // import HeroesNYSmashed from '../images/heroes_ny_smashed_half.jpg'
 // import HeroesNYSliced from '../images/heroes_ny_sliced_half.jpg'
@@ -33,7 +33,7 @@ import AllNewChicken from './images/strd_chicken.jpg'
 ])
   
 
-export default class AllNewSubMenu extends Component {
+export default class AllNewClubs extends Component {
 
     render() {
 
@@ -84,52 +84,51 @@ export default class AllNewSubMenu extends Component {
 
     
     return (
-        <div className="all-new-menu">
-            {/* <img src={bg} /> */}
+        <div className="all-new-clubs">
 
-            <div className="series-half" style={{ left: layoutDirection == "R2L" ? "auto" : "0", right: layoutDirection == "R2L" ? "0" : "auto" }}>
+            <div className="clubs-half" style={{ left: layoutDirection == "R2L" ? "auto" : "0", right: layoutDirection == "R2L" ? "0" : "auto" }}>
                  <img src={AllNewItalianos} />
 
 
-                <div className="price-block ">
-                    <div className=" philly6">${philyPrice6} 
+                <div className="clubs-price-block ">
+                    <div className=" club-aac6">${philyPrice6} 
                         <p className="cal">480</p>
                     </div>
-                    <div className=" philly-fl">${philyPrice12}
+                    <div className=" club-aac-fl">${philyPrice12}
                         <p className="cal">960</p>
                     </div>
-                    <div className=" philly-pro">${philyPricePro}
+                    <div className=" club-aac-pro">${philyPricePro}
                         <p className="cal">1190cal</p>
                     </div> 
                 </div>
 
-                <div className="price-block ">
-                    <div className=" outlaw6">${philyPrice6} 
+                <div className="clubs-price-block ">
+                    <div className=" club-subway6">${philyPrice6} 
                         <p className="cal">480</p>
                     </div>
-                    <div className=" outlaw-fl">${philyPrice12}
+                    <div className=" club-subway-fl">${philyPrice12}
                         <p className="cal">960</p>
                     </div>
-                    <div className=" outlaw-pro">${philyPricePro}
+                    <div className=" club-subway-pro">${philyPricePro}
                         <p className="cal">1190cal</p>
                     </div> 
                 </div>
 
-                <div className="price-block ">
-                    <div className=" boss6">${philyPrice6} 
+                <div className="clubs-price-block ">
+                    <div className=" club-cali6">${philyPrice6} 
                         <p className="cal">480</p>
                     </div>
-                    <div className=" boss-fl">${philyPrice12}
+                    <div className=" club-cali-fl">${philyPrice12}
                         <p className="cal">960</p>
                     </div>
-                    <div className=" boss-pro">${philyPricePro}
+                    <div className=" club-cali-pro">${philyPricePro}
                         <p className="cal">1190cal</p>
                     </div> 
                 </div>
             </div>
 
 
-            <div className="cheesesteaks-half" style={{ left: layoutDirection == "R2L" ? "0" : "auto", right: layoutDirection == "R2L" ? "auto" : "0" }}>
+            <div className="build-your-own-half" style={{ left: layoutDirection == "R2L" ? "0" : "auto", right: layoutDirection == "R2L" ? "auto" : "0" }}>
                 
                 <img src={AllNewChicken} />
 
@@ -140,38 +139,74 @@ export default class AllNewSubMenu extends Component {
                 { !isSodiumStore && !slicedAvocado && <img src={HeroesSmashed} /> }
                 { !isSodiumStore && slicedAvocado && <img src={HeroesSliced} /> } */}
 
-                <div className="price-block ">
-                    <div className=" philly6">${philyPrice6} 
+                <div className="byo-price-block ">
+                    <div className=" oven-roasted6">${philyPrice6} 
                         <p className="cal">480</p>
                     </div>
-                    <div className=" philly-fl">${philyPrice12}
+                    <div className=" oven-roasted-fl">${philyPrice12}
                         <p className="cal">960</p>
                     </div>
-                    <div className=" philly-pro">${philyPricePro}
+                    <div className=" oven-roasted-pro">${philyPricePro}
                         <p className="cal">1190cal</p>
                     </div> 
                 </div>
 
-                <div className="price-block ">
-                    <div className=" outlaw6">${philyPrice6} 
+                <div className="byo-price-block ">
+                    <div className=" steaks-cheese6">${philyPrice6} 
                         <p className="cal">480</p>
                     </div>
-                    <div className=" outlaw-fl">${philyPrice12}
+                    <div className=" steaks-cheese-fl">${philyPrice12}
                         <p className="cal">960</p>
                     </div>
-                    <div className=" outlaw-pro">${philyPricePro}
+                    <div className=" steaks-cheese-pro">${philyPricePro}
                         <p className="cal">1190cal</p>
                     </div> 
                 </div>
 
-                <div className="price-block ">
-                    <div className=" boss6">${philyPrice6} 
+                <div className="byo-price-block ">
+                    <div className=" black-forest-ham6">${philyPrice6} 
                         <p className="cal">480</p>
                     </div>
-                    <div className=" boss-fl">${philyPrice12}
+                    <div className=" black-forest-ham-fl">${philyPrice12}
                         <p className="cal">960</p>
                     </div>
-                    <div className=" boss-pro">${philyPricePro}
+                    <div className=" black-forest-ham-pro">${philyPricePro}
+                        <p className="cal">1190cal</p>
+                    </div> 
+                </div>
+
+                <div className="byo-price-block ">
+                    <div className=" tuna6">${philyPrice6} 
+                        <p className="cal">480</p>
+                    </div>
+                    <div className=" tuna-fl">${philyPrice12}
+                        <p className="cal">960</p>
+                    </div>
+                    <div className=" tuna-pro">${philyPricePro}
+                        <p className="cal">1190cal</p>
+                    </div> 
+                </div>
+
+                <div className="byo-price-block ">
+                    <div className=" italian-bmt6">${philyPrice6} 
+                        <p className="cal">480</p>
+                    </div>
+                    <div className=" italian-bmt-fl">${philyPrice12}
+                        <p className="cal">960</p>
+                    </div>
+                    <div className=" italian-bmt-pro">${philyPricePro}
+                        <p className="cal">1190cal</p>
+                    </div> 
+                </div>
+
+                <div className="byo-price-block ">
+                    <div className=" spicy-italian6">${philyPrice6} 
+                        <p className="cal">480</p>
+                    </div>
+                    <div className=" spicy-italian-fl">${philyPrice12}
+                        <p className="cal">960</p>
+                    </div>
+                    <div className=" spicy-italian-pro">${philyPricePro}
                         <p className="cal">1190cal</p>
                     </div> 
                 </div>

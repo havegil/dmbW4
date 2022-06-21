@@ -1,0 +1,211 @@
+.all-new-subs-menu {
+    
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 960px;
+    z-index: 100;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    div.subs-price-block {
+        color: black;
+        font-family: 'Subway-Medium';
+        font-size: 40.9px;
+        left: 0;
+        line-height: 15px;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+
+        .cal{
+            margin-top:1.5rem;
+        }
+        
+        div.soct6{
+            left: 5.25rem;
+            top: 6.9275rem;
+            position:absolute;
+        }
+
+        div.soct-fl{
+            left: 12.75rem;
+            top: 6.9275rem;
+            position:absolute;
+        }
+
+        div.soct-pro{
+            left: 20.25rem;
+            top: 6.9275rem;
+            position:absolute;            
+        }
+
+        div.cbr6{
+            left: 5.25rem;
+            top: 15.3125rem;
+            position:absolute; 
+        }
+
+        div.cbr-fl{
+            left: 12.75rem;
+            top: 15.3125rem;
+            position:absolute; 
+        }
+
+        div.cbr-pro{
+            left: 20.25rem;
+            top: 15.3125rem;
+            position:absolute; 
+        }
+
+        div.mm6{
+            left: 5.25rem;
+            top: 24rem;
+            position:absolute; 
+        }
+
+        div.mm-fl{
+            left: 12.75rem;
+            top: 24rem;
+            position:absolute; 
+        }
+
+        div.mm-pro{
+            left: 20.25rem;
+            top: 24rem;
+            position:absolute; 
+        }
+        
+        div.ccc6{
+            left: 5.25rem;
+            top: 32.625rem;
+            position:absolute;
+        }
+
+        div.ccc-fl{
+            left: 12.75rem;
+            top: 32.625rem;
+            position:absolute;
+        }
+
+        div.ccc-pro{
+            left: 20.25rem;
+            top: 32.625rem;
+            position:absolute;            
+        }
+
+/** column 2 **/
+        div.rsc6{
+            left: 33.375rem;
+            top: 6.9275rem;
+            position:absolute; 
+        }
+
+        div.rsc-fl{
+            left: 40.75rem;
+            top: 6.9275rem;
+            position:absolute; 
+        }
+
+        div.rsc-pro{
+            left: 48.25rem;
+            top: 6.9275rem;
+            position:absolute; 
+        }
+
+        div.rb6{
+            left: 33.375rem;
+            top: 15.3125rem;
+            position:absolute; 
+        }
+
+        div.rb-fl{
+            left: 40.75rem;
+            top: 15.3125rem;
+            position:absolute; 
+        }
+
+        div.rb-pro{
+            left: 48.25rem;
+            top: 15.3125rem;
+            position:absolute; 
+        }
+
+        div.bc6{
+            left: 33.375rem;
+            top: 24rem;
+            position:absolute; 
+        }
+
+        div.bc-fl{
+            left: 40.75rem;
+            top: 24rem;
+            position:absolute; 
+        }
+
+        div.bc-pro{
+            left: 48.25rem;
+            top: 24rem;
+            position:absolute; 
+        }
+
+        div.vd6{
+            left: 33.375rem;
+            top: 32.625rem;
+            position:absolute; 
+        }
+
+        div.vd-fl{
+            left: 40.75rem;
+            top: 32.625rem;
+            position:absolute; 
+        }
+
+        div.vd-pro{
+            left: 48.25rem;
+            top: 32.625rem;
+            position:absolute; 
+        }
+
+    }
+
+
+    .subs-half {
+        height: 1080px;
+        position: absolute;
+        left: 0;
+        width: 960px;
+    }
+
+}
+
+.featured-promo-area {
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+
+    span {
+        height: 1080px;
+        width: 1920px;
+    }
+
+    .dj-content {
+
+    }
+
+}
+
+.signature-wraps-area {
+    opacity: 0;
+}
+
+.l-screen-reverse .featured-promo-area {
+    left: 0px;
+}

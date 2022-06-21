@@ -125,7 +125,8 @@ SLIDE AND SLIDE FADE EFFECTS
 }
 
 .dj-content {
-  position: relative;
+  /* position: relative; */
+  position: absolute;
   height: 100%;
   width: 100%;
   overflow: hidden;

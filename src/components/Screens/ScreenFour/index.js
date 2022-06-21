@@ -7,10 +7,12 @@ import './styles.css'
 
 let TimerLength = 4000
 
+import AllNewSubsMenu from './components/2022w4/SubsMenu'
+import MenuMakeAnyAddOns from './playlists/MenuMakeAnyAddOns'
+
 import SecondaryPromotions from './playlists/secondaryPromotions'
 import Sides from './playlists/sides'
-import MakeItAMeal from './components/MakeItAMeal'
-import Footer from './components/Footer'
+
 
 export default class ScreenFour extends Component {
 
@@ -43,20 +45,29 @@ export default class ScreenFour extends Component {
       <div className={this.props.screenClass}>
         <div className={`s-Four`}>
           <section className={`s-Secondary`}>
+
+            <AllNewSubsMenu {...this.props} />
+                      
+            <PlaylistDJ {...this.props} playlists={MenuMakeAnyAddOns} queued={false} currentFrameCount={this.state.currentFrameCount} />
+
+          </section>
+
+          <section className={`s-Sides`}>
+ 
             <PlaylistDJ
               {...this.props}
               playlists={SecondaryPromotions}
               queued={false}
               currentFrameCount={this.state.currentFrameCount}
             />
-          </section>
 
-          {/* <section className={`s-Meal`}>
-            <MakeItAMeal {...this.props} />
-          </section> */}
+            <PlaylistDJ 
+              {...this.props} 
+              playlists={Sides} 
+              queued={false} 
+              currentFrameCount={this.state.currentFrameCount} 
+            />          
 
-          <section className={`s-Sides`}>
-            <PlaylistDJ {...this.props} playlists={Sides} queued={false} currentFrameCount={this.state.currentFrameCount} />
           </section>
         </div>
       </div>

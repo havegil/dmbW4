@@ -28,13 +28,13 @@ export default class PanelThree extends Component {
               {...this.props}
             />
         </section>
-        <section className={`s-Footer`}>
+        {/* <section className={`s-Footer`}>
             <PlaylistDJ
               playlists={playlistFooters(this.props.player,this.props.layout)}
               {...this.props}
               
             />
-        </section>
+        </section> */}
 
       </div>
     )

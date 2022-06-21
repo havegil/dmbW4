@@ -10,18 +10,25 @@ import API from 'api'
 // import KidsMealEvergreen from '../components/KidsMealEvergreen'
 
 
-import WrapsMelts from '../components/WrapsMelts'
-
+// 2022w4 All New Breakfast Combo
+import AllNewBreakfastCombo from  '../components/2022w4/BreakFastCombo'
+// 2022w4 All New Local Favorites
+import AllNewLocalFavorites from  '../components/2022w4/LocalFavorites'
 
 export default [
-  // Testing
   {
-    id: "1",
+    id: "35",
     frames: [
       {
-        component: <WrapsMelts />,
-        duration: 100000,
+        component: <AllNewLocalFavorites />,
+        duration: 25000,
+      },
+      {            
+        component: <AllNewBreakfastCombo />,
+        duration: 25000,
       }
+        
     ]
   }
+
 ]
